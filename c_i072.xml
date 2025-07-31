@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_44a2b0ae0c409cd0ee4ce7e5a205da87982ab526ae331e21eb317c748fb1e02e" entityID="https://sanpaolodicivitate.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_44a2b0ae0c409cd0ee4ce7e5a205da87982ab526ae331e21eb317c748fb1e02e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>H/f0oz/2J2oW9UPK91NszkdpTd4GQaTZtrbEEN9OdaE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ujuiYBV6GE6njJ0z10xbQ31REcL0xLRISJAdfwvUyEhPvnsiw5kwjIIx/s60h4E1FHGWnbYGxBZC
++9qyzSnxiRXA1dx+eIpU81pMpZquqwLDo+bR+dxPGkj8EGtaBP+x9uubAInXZ6A9YaZ9tQdOm+Xm
+OsSlo6GdnFZSu3jySWVkWYCS5UDV3w6NcvHIAyZrAMj+5quUber+Al+dXTQuCUpo76K77Q5MG9zN
+yzw+VmNhJIm0gAp4p+hUtU4bp7igAU0NCDori9BzR7YQKai8NyN8e0nnzEArYonZkzC0KkmZ1kJu
+7afHbS+01svMPonNanjW3ehWIaNJ00phOjVcdQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+y4XmLMgZlwPIPMH8IIeo+6tLHURXpIwjQOpXoDZk+xJMMrs/ieM3pLD49E218d0lmTFt5i0lNHqD
+KIcmUMFkPGhXJKPmJRuahlOS9BFFtm4OAecIGXtUaWcllN/wjCzn8VbLOp85M8hksaYWuH/TuC6X
+zHOJHmhgx7Cv35CvdUInvSDpv3u/F5dLXwHxiGQlQkYQvkhhjx+T8Sb4DuaHIrb8B2X/9s4790Ev
+Pe+Hngom1ggnnPiF222qhno9WyrKDCZi4mDIl20xwtklLe9vEqlIxVXi9oKM49Ubm24i/6/pu/n6
+ZtCAKqyVCl3WPkmgWkLDusZR1ylxmWwrldTrnw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID9zCCAt+gAwIBAgIJALiqgDs3/mhDMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UECgwf
+Q29tdW5lIGRpIFNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UEAwwfc2FucGFvbG9kaWNpdml0
+YXRlLmhhbGxleXdlYi5pdDAeFw0yNTA3MTQwNzUxNDJaFw0zNTA3MTQwNzUxNDJaMIGRMQswCQYD
+VQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEo
+MCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UEAwwfc2FucGFv
+bG9kaWNpdml0YXRlLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AMuF5izIGZcDyDzB/CCHqPurSx1EV6SMI0DqV6A2ZPsSTDK7P4njN6Sw+PRNtfHdJZkxbeYtJTR6
+gyiHJlDBZDxoVySj5iUbmoZTkvQRRbZuDgHnCBl7VGlnJZTf8Iws5/FWyzqfOTPIZLGmFrh/07gu
+l8xziR5oYMewr9+Qr3VCJ70g6b97vxeXS18B8YhkJUJGEL5IYY8fk/Em+A7mhyK2/Adl//bOO/dB
+Lz3vh54KJtYIJ5z4hdttqoZ6PVsqygwmYuJgyJdtMcLZJS3vbxKpSMVV4vaCjOPVG5tuIv+v6bv5
++mbQgCqslQpd1j5JoFpCw7rGUdcpcZlsK5XU658CAwEAAaNQME4wHQYDVR0OBBYEFFeYpyT/eG+j
+lflfvp3LvJLLvcT1MB8GA1UdIwQYMBaAFFeYpyT/eG+jlflfvp3LvJLLvcT1MAwGA1UdEwQFMAMB
+Af8wDQYJKoZIhvcNAQELBQADggEBADxNrdQps5Lg7evk9dDSCHiCzmDa0BcZoJq2cmAp3uqWwSd4
+s7PYswQSIoIcOBa7kCaG2IBEmT/xPbNv/X2vDYjlf4udhbB2v32tJxt6vrCOuSEZetkZ4VU2Cezh
+kmISDg0YY6jDT03BjFBdDpXdLZbQTdipdn+Q2lOpg5e4Is22akW9H6zbT3xZRUnXje9+3fr8aGU2
+5cwwRfAkdShe1Ivb1GDfv0yE9VOr8GTI1/d+MDSq21nlxfl4MrDyVSK5dyG4H9xWGpnNxBOwDIM7
+5i1bgLfpBEpHaAYGzfkcA3tRdsL+ddLjwCXkduaDjxT4QsBoL1Y3Cxxn4KveLV3gpSo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9zCCAt+gAwIBAgIJALiqgDs3/mhDMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UEAwwfc2FucGFvbG9kaWNpdml0YXRlLmhhbGxleXdlYi5pdDAeFw0yNTA3MTQwNzUxNDJaFw0zNTA3MTQwNzUxNDJaMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UEAwwfc2FucGFvbG9kaWNpdml0YXRlLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMuF5izIGZcDyDzB/CCHqPurSx1EV6SMI0DqV6A2ZPsSTDK7P4njN6Sw+PRNtfHdJZkxbeYtJTR6gyiHJlDBZDxoVySj5iUbmoZTkvQRRbZuDgHnCBl7VGlnJZTf8Iws5/FWyzqfOTPIZLGmFrh/07gul8xziR5oYMewr9+Qr3VCJ70g6b97vxeXS18B8YhkJUJGEL5IYY8fk/Em+A7mhyK2/Adl//bOO/dBLz3vh54KJtYIJ5z4hdttqoZ6PVsqygwmYuJgyJdtMcLZJS3vbxKpSMVV4vaCjOPVG5tuIv+v6bv5+mbQgCqslQpd1j5JoFpCw7rGUdcpcZlsK5XU658CAwEAAaNQME4wHQYDVR0OBBYEFFeYpyT/eG+jlflfvp3LvJLLvcT1MB8GA1UdIwQYMBaAFFeYpyT/eG+jlflfvp3LvJLLvcT1MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADxNrdQps5Lg7evk9dDSCHiCzmDa0BcZoJq2cmAp3uqWwSd4s7PYswQSIoIcOBa7kCaG2IBEmT/xPbNv/X2vDYjlf4udhbB2v32tJxt6vrCOuSEZetkZ4VU2CezhkmISDg0YY6jDT03BjFBdDpXdLZbQTdipdn+Q2lOpg5e4Is22akW9H6zbT3xZRUnXje9+3fr8aGU25cwwRfAkdShe1Ivb1GDfv0yE9VOr8GTI1/d+MDSq21nlxfl4MrDyVSK5dyG4H9xWGpnNxBOwDIM75i1bgLfpBEpHaAYGzfkcA3tRdsL+ddLjwCXkduaDjxT4QsBoL1Y3Cxxn4KveLV3gpSo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID9zCCAt+gAwIBAgIJALiqgDs3/mhDMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UEAwwfc2FucGFvbG9kaWNpdml0YXRlLmhhbGxleXdlYi5pdDAeFw0yNTA3MTQwNzUxNDJaFw0zNTA3MTQwNzUxNDJaMIGRMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHjAcBgNVBAcMFVNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UECgwfQ29tdW5lIGRpIFNhbiBQYW9sbyBkaSBDaXZpdGF0ZTEoMCYGA1UEAwwfc2FucGFvbG9kaWNpdml0YXRlLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMuF5izIGZcDyDzB/CCHqPurSx1EV6SMI0DqV6A2ZPsSTDK7P4njN6Sw+PRNtfHdJZkxbeYtJTR6gyiHJlDBZDxoVySj5iUbmoZTkvQRRbZuDgHnCBl7VGlnJZTf8Iws5/FWyzqfOTPIZLGmFrh/07gul8xziR5oYMewr9+Qr3VCJ70g6b97vxeXS18B8YhkJUJGEL5IYY8fk/Em+A7mhyK2/Adl//bOO/dBLz3vh54KJtYIJ5z4hdttqoZ6PVsqygwmYuJgyJdtMcLZJS3vbxKpSMVV4vaCjOPVG5tuIv+v6bv5+mbQgCqslQpd1j5JoFpCw7rGUdcpcZlsK5XU658CAwEAAaNQME4wHQYDVR0OBBYEFFeYpyT/eG+jlflfvp3LvJLLvcT1MB8GA1UdIwQYMBaAFFeYpyT/eG+jlflfvp3LvJLLvcT1MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADxNrdQps5Lg7evk9dDSCHiCzmDa0BcZoJq2cmAp3uqWwSd4s7PYswQSIoIcOBa7kCaG2IBEmT/xPbNv/X2vDYjlf4udhbB2v32tJxt6vrCOuSEZetkZ4VU2CezhkmISDg0YY6jDT03BjFBdDpXdLZbQTdipdn+Q2lOpg5e4Is22akW9H6zbT3xZRUnXje9+3fr8aGU25cwwRfAkdShe1Ivb1GDfv0yE9VOr8GTI1/d+MDSq21nlxfl4MrDyVSK5dyG4H9xWGpnNxBOwDIM75i1bgLfpBEpHaAYGzfkcA3tRdsL+ddLjwCXkduaDjxT4QsBoL1Y3Cxxn4KveLV3gpSo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sanpaolodicivitate.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sanpaolodicivitate.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sanpaolodicivitate.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Paolo di Civitate</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di San Paolo di Civitate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Paolo di Civitate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di San Paolo di Civitate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sanpaolodicivitate.fg.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.sanpaolodicivitate.fg.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_i072</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di San Paolo di Civitate</md:Company>
+    <md:EmailAddress>comune.sanpaolo.utc@virgilio.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
