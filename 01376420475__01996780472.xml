@@ -1,0 +1,96 @@
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:fpa="https://spid.gov.it/invoicing-extensions" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://spid.visegroup.it/pri-ag-full/mit" ID="_72248265-85c4-471b-9366-d0b50a4e0c14">
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<Reference URI="#_72248265-85c4-471b-9366-d0b50a4e0c14">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<DigestValue>k6Wafyx7ENamnQndwK+hXXb6sSkxMQ3kb6CSb0dhQQY=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>attfvd95aWBtvsuVu1Q03thEKrbNsrI3jFk/zHx7aHbPBZN3WZx7M1IXUt1zfqMWRnvaEmEc7HUbnNUtT28gMGRKX7cHpwPzo8ldboZBxQdnqKeT1BWwRLrTxJISFYJ4vAcGy7aK001XbQp206hqqbpCMW00tqxSmbEZU4jrqMfm/53eJNSZrG0HPBQ/HFY358BGNW70sZo1/7siIWmBqm6Gr0SxupfTfJjHuA8FBlSONFtWgSh/p6gyt1QLiCO+M/g/QDOxSaZFQ4NKnSwwQGa1TKeW02j7nZ4KQ7Llo+A7sleuRJ0KnjXy2VvGmqCpjKeSAJrp3LYfZA59LqFXVw==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509Certificate>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</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+	<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.visegroup.it/signout-spid"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.visegroup.it/signin-spid" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.visegroup.it/signin-spid" index="1" isDefault="false"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Autenticazione</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">Autenticazione del cliente tramite SPID</md:ServiceDescription>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">MIT S.R.L.</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">MIT</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://spid.visegroup.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT01996780472</spid:VATNumber>
+			<spid:PrivateServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>FINANCIAL SOFTWARE S.R.L.</md:Company>
+		<md:EmailAddress>info@fisoft.it</md:EmailAddress>
+		<md:TelephoneNumber>+390572766141</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:VATNumber>IT01376420475</spid:VATNumber>
+			<spid:Private/>
+		</md:Extensions>
+		<md:Company>MIT S.R.L.</md:Company>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="billing" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<fpa:CessionarioCommittente xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+				<fpa:DatiAnagrafici>
+					<fpa:IdFiscaleIVA>
+						<fpa:IdPaese>IT</fpa:IdPaese>
+						<fpa:IdCodice>01996780472</fpa:IdCodice>
+					</fpa:IdFiscaleIVA>
+					<fpa:Anagrafica>
+						<fpa:Denominazione>FINANCIAL SOFTWARE S.R.L.</fpa:Denominazione>
+					</fpa:Anagrafica>
+				</fpa:DatiAnagrafici>
+				<fpa:Sede>
+					<fpa:Indirizzo>Via Lucania</fpa:Indirizzo>
+					<fpa:NumeroCivico>22</fpa:NumeroCivico>
+					<fpa:CAP>51016</fpa:CAP>
+					<fpa:Comune>Montecatini Terme</fpa:Comune>
+					<fpa:Provincia>PT</fpa:Provincia>
+					<fpa:Nazione>IT</fpa:Nazione>
+				</fpa:Sede>
+			</fpa:CessionarioCommittente>
+		</md:Extensions>
+		<md:Company>FINANCIAL SOFTWARE S.R.L.</md:Company>
+		<md:EmailAddress>info@fisoft.it</md:EmailAddress>
+		<md:TelephoneNumber>+390572766141</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>
