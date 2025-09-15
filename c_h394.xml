@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_cf1714a4ec4136364ac6848e180cfca7f6bd7ce94fe5a6b80b9a63787f9c638a" entityID="https://roccadaspide.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_cf1714a4ec4136364ac6848e180cfca7f6bd7ce94fe5a6b80b9a63787f9c638a">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>wvigHmNuusM3+z3n/iRwohXMCQ0GB+nhR9jrqi0eqy8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+gH/VoDB3rAXPvoS5WSNkMNA4RQ7TOwpqQ+I09Kmfb3i56FyCrxqnUCp+uc4hC++tluCrYd4np3J2
+PyC/Nh45XhHmoLphWY+SB61MjqWVaPk9eBF5yn/UGvVw3S5EwDyGhRxc7wVYKPHD2wJeDZio7kPP
+ttz1La87apNxM8NfCEOXjvUITo7xs+uhQfEgc1ohu24BXGNpZo79l+lVJW2QvVA1PG1FeQnJyef6
+qetdGsd0IiR6iXb2eCDoDQnuf6IiLF8bvnLk5/F7vFu5hNYeRi6vfbFeqSevXrAzbNt5mSuGP2ut
+Np5FdND0iN4pggugD4gpasdn7GcKPHwOx0uAZw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xJsGe4aSqsIoR2w/BwqmclJ0+ufvgDOYdOGaIPwmsKmf0DRI+77xJofT2T6WAxACf3OyAIP944cG
+nFxPShg8iNA86KPJ9CkvAjPbRrtXu5/sDdlDdLOPnkFW2OaA/w/iRkwtnuoP4dok72M+bpT0G/h3
+27qLNkIkOJz+mJ1g/waUURKBpJ1tbx7/vi4kvxXMxB8nRVDje99siHOZ4YmPDrckMzHDRnBWDFD0
+PkT/NHbN9f3zRge8MAmyfnfn3Bt/w8Rz/EZL1Z9V52hhNGOtKIcj/Ekkp9To1YpsLc90Gr46jrDD
+gIeFodAZTPA0MMRCb0ueclCi/n1n9Ww5b8g94w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDxTCCAq2gAwIBAgIJAM2kFHWNH+ixMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMUm9jY2FkYXNwaWRlMR8wHQYDVQQKDBZDb211bmUgZGkg
+Um9jY2FkYXNwaWRlMSIwIAYDVQQDDBlyb2NjYWRhc3BpZGUuaGFsbGV5d2ViLml0MB4XDTI1MDkx
+MDA5MDMwMVoXDTM1MDkxMDA5MDMwMVoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRUw
+EwYDVQQHDAxSb2NjYWRhc3BpZGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBSb2NjYWRhc3BpZGUxIjAg
+BgNVBAMMGXJvY2NhZGFzcGlkZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDEmwZ7hpKqwihHbD8HCqZyUnT65++AM5h04Zog/CawqZ/QNEj7vvEmh9PZPpYDEAJ/
+c7IAg/3jhwacXE9KGDyI0Dzoo8n0KS8CM9tGu1e7n+wN2UN0s4+eQVbY5oD/D+JGTC2e6g/h2iTv
+Yz5ulPQb+Hfbuos2QiQ4nP6YnWD/BpRREoGknW1vHv++LiS/FczEHydFUON732yIc5nhiY8OtyQz
+McNGcFYMUPQ+RP80ds31/fNGB7wwCbJ+d+fcG3/DxHP8RkvVn1XnaGE0Y60ohyP8SSSn1OjVimwt
+z3QavjqOsMOAh4Wh0BlM8DQwxEJvS55yUKL+fWf1bDlvyD3jAgMBAAGjUDBOMB0GA1UdDgQWBBQm
+DoptazEuBgZlqqidqKXDec+QRjAfBgNVHSMEGDAWgBQmDoptazEuBgZlqqidqKXDec+QRjAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQ8fRc3GzFhd5Ph4oQBXUYdlta3uxQ8Woc+1fg
+/bHaXPFJWot7T60ie1iJx/yASAbactChmO7RhOJzi+dF/K6bclC1e9MjN50WhpWKplUGQMyryuoY
+www26n+tnnp9oukMM7Uf+7xCeIeu7LOLPXkJxUy/jTjK9OaE+rDU8zdl6ubId9teyZ3GrU0a4z1O
+TYgju0YqIVLFL1Lc1JESR1AlN4zbt73YVZozUpZViallQFAu0VadY8N+fq0STZCzMu7Al5guLDSu
+q2FhXy8mic2lga1toBv82Vo/RxgymhuD0LRjdpKQOs8O7UyYdXOKM57QZVCMDFqahDL8uBJ+TAaT
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDxTCCAq2gAwIBAgIJAM2kFHWNH+ixMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMUm9jY2FkYXNwaWRlMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2FkYXNwaWRlMSIwIAYDVQQDDBlyb2NjYWRhc3BpZGUuaGFsbGV5d2ViLml0MB4XDTI1MDkxMDA5MDMwMVoXDTM1MDkxMDA5MDMwMVoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRUwEwYDVQQHDAxSb2NjYWRhc3BpZGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBSb2NjYWRhc3BpZGUxIjAgBgNVBAMMGXJvY2NhZGFzcGlkZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEmwZ7hpKqwihHbD8HCqZyUnT65++AM5h04Zog/CawqZ/QNEj7vvEmh9PZPpYDEAJ/c7IAg/3jhwacXE9KGDyI0Dzoo8n0KS8CM9tGu1e7n+wN2UN0s4+eQVbY5oD/D+JGTC2e6g/h2iTvYz5ulPQb+Hfbuos2QiQ4nP6YnWD/BpRREoGknW1vHv++LiS/FczEHydFUON732yIc5nhiY8OtyQzMcNGcFYMUPQ+RP80ds31/fNGB7wwCbJ+d+fcG3/DxHP8RkvVn1XnaGE0Y60ohyP8SSSn1OjVimwtz3QavjqOsMOAh4Wh0BlM8DQwxEJvS55yUKL+fWf1bDlvyD3jAgMBAAGjUDBOMB0GA1UdDgQWBBQmDoptazEuBgZlqqidqKXDec+QRjAfBgNVHSMEGDAWgBQmDoptazEuBgZlqqidqKXDec+QRjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQ8fRc3GzFhd5Ph4oQBXUYdlta3uxQ8Woc+1fg/bHaXPFJWot7T60ie1iJx/yASAbactChmO7RhOJzi+dF/K6bclC1e9MjN50WhpWKplUGQMyryuoYwww26n+tnnp9oukMM7Uf+7xCeIeu7LOLPXkJxUy/jTjK9OaE+rDU8zdl6ubId9teyZ3GrU0a4z1OTYgju0YqIVLFL1Lc1JESR1AlN4zbt73YVZozUpZViallQFAu0VadY8N+fq0STZCzMu7Al5guLDSuq2FhXy8mic2lga1toBv82Vo/RxgymhuD0LRjdpKQOs8O7UyYdXOKM57QZVCMDFqahDL8uBJ+TAaT</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDxTCCAq2gAwIBAgIJAM2kFHWNH+ixMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMUm9jY2FkYXNwaWRlMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2FkYXNwaWRlMSIwIAYDVQQDDBlyb2NjYWRhc3BpZGUuaGFsbGV5d2ViLml0MB4XDTI1MDkxMDA5MDMwMVoXDTM1MDkxMDA5MDMwMVoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRUwEwYDVQQHDAxSb2NjYWRhc3BpZGUxHzAdBgNVBAoMFkNvbXVuZSBkaSBSb2NjYWRhc3BpZGUxIjAgBgNVBAMMGXJvY2NhZGFzcGlkZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEmwZ7hpKqwihHbD8HCqZyUnT65++AM5h04Zog/CawqZ/QNEj7vvEmh9PZPpYDEAJ/c7IAg/3jhwacXE9KGDyI0Dzoo8n0KS8CM9tGu1e7n+wN2UN0s4+eQVbY5oD/D+JGTC2e6g/h2iTvYz5ulPQb+Hfbuos2QiQ4nP6YnWD/BpRREoGknW1vHv++LiS/FczEHydFUON732yIc5nhiY8OtyQzMcNGcFYMUPQ+RP80ds31/fNGB7wwCbJ+d+fcG3/DxHP8RkvVn1XnaGE0Y60ohyP8SSSn1OjVimwtz3QavjqOsMOAh4Wh0BlM8DQwxEJvS55yUKL+fWf1bDlvyD3jAgMBAAGjUDBOMB0GA1UdDgQWBBQmDoptazEuBgZlqqidqKXDec+QRjAfBgNVHSMEGDAWgBQmDoptazEuBgZlqqidqKXDec+QRjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQ8fRc3GzFhd5Ph4oQBXUYdlta3uxQ8Woc+1fg/bHaXPFJWot7T60ie1iJx/yASAbactChmO7RhOJzi+dF/K6bclC1e9MjN50WhpWKplUGQMyryuoYwww26n+tnnp9oukMM7Uf+7xCeIeu7LOLPXkJxUy/jTjK9OaE+rDU8zdl6ubId9teyZ3GrU0a4z1OTYgju0YqIVLFL1Lc1JESR1AlN4zbt73YVZozUpZViallQFAu0VadY8N+fq0STZCzMu7Al5guLDSuq2FhXy8mic2lga1toBv82Vo/RxgymhuD0LRjdpKQOs8O7UyYdXOKM57QZVCMDFqahDL8uBJ+TAaT</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDzTCCArWgAwIBAgIJAMCNxAu9oWbNMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMUm9jY2FkYXNwaWRlMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2FkYXNwaWRlMSYwJAYDVQQDDB13d3cuY29tdW5lLnJvY2NhZGFzcGlkZS5zYS5pdDAeFw0yNTA5MTAwOTAzMDFaFw0zNTA5MTAwOTAzMDFaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMUm9jY2FkYXNwaWRlMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2FkYXNwaWRlMSYwJAYDVQQDDB13d3cuY29tdW5lLnJvY2NhZGFzcGlkZS5zYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMsY0KASKl/aNNjJermaFZ6ojcSjaekzpkA978FeK4Uy/7z2fQK7hxhrPxk0WbYesokIKxbA7SiDVvo6BcheySqSsr/FvTdu+RccT5AdUdTzV+r9PCREUIokKB0GeRy+z35aXYBvAElgrA+SS2kgCJUDjo16ijzCtJBQ8Ig6MtT3u+tX0eAtJNTVKJB4KN8QLGjhyq0fjUhq2+EV5FXczJK6GB8p6iTCgrExgI7mcbQP6z0qH9rI9V8Wa9K85rFGR9Wsl7glPjRpTYw+iJbyexlYZskPkYEw4x56MihqaR8sNVxTm3wg4lXCr2r+acOzRyKOGVpVAmJka8UTzCHfkOMCAwEAAaNQME4wHQYDVR0OBBYEFNX242yvwkywNWeW/S2JRuGq0RTCMB8GA1UdIwQYMBaAFNX242yvwkywNWeW/S2JRuGq0RTCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABAqSVfR0eihowJz7OfvZdJniqv46pbdJbk1Nhsw1BpMP4SuPo7dR4s0Mc7nr1nx8noorBwa27zzH5pgVmWmOoCcBygnbseBNZHltp5UhYN9emsSXbzHP3IEPJoxZ7Lp7/FwIPJH4fVStB1BA/DJpWBRXZQb742Wmz3rqrd5/no/MbAQXbYozW/+t+4BtKdA+W8Q22ZHIx4iEWT0JoN/wntyA73T9ppS7Wwo3Rt9f+pHiub4V7uXQYr2/hMKUg65MY9OYa0aX6cVpj5Ff1Pxnsv6wccit6zm+752rukjpjLka/l/xd6s3c2G8lxIYjkD5/S1l7wcSe/AlqMBG1m95SU=</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDzTCCArWgAwIBAgIJAMCNxAu9oWbNMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMUm9jY2FkYXNwaWRlMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2FkYXNwaWRlMSYwJAYDVQQDDB13d3cuY29tdW5lLnJvY2NhZGFzcGlkZS5zYS5pdDAeFw0yNTA5MTAwOTAzMDFaFw0zNTA5MTAwOTAzMDFaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMUm9jY2FkYXNwaWRlMR8wHQYDVQQKDBZDb211bmUgZGkgUm9jY2FkYXNwaWRlMSYwJAYDVQQDDB13d3cuY29tdW5lLnJvY2NhZGFzcGlkZS5zYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMsY0KASKl/aNNjJermaFZ6ojcSjaekzpkA978FeK4Uy/7z2fQK7hxhrPxk0WbYesokIKxbA7SiDVvo6BcheySqSsr/FvTdu+RccT5AdUdTzV+r9PCREUIokKB0GeRy+z35aXYBvAElgrA+SS2kgCJUDjo16ijzCtJBQ8Ig6MtT3u+tX0eAtJNTVKJB4KN8QLGjhyq0fjUhq2+EV5FXczJK6GB8p6iTCgrExgI7mcbQP6z0qH9rI9V8Wa9K85rFGR9Wsl7glPjRpTYw+iJbyexlYZskPkYEw4x56MihqaR8sNVxTm3wg4lXCr2r+acOzRyKOGVpVAmJka8UTzCHfkOMCAwEAAaNQME4wHQYDVR0OBBYEFNX242yvwkywNWeW/S2JRuGq0RTCMB8GA1UdIwQYMBaAFNX242yvwkywNWeW/S2JRuGq0RTCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABAqSVfR0eihowJz7OfvZdJniqv46pbdJbk1Nhsw1BpMP4SuPo7dR4s0Mc7nr1nx8noorBwa27zzH5pgVmWmOoCcBygnbseBNZHltp5UhYN9emsSXbzHP3IEPJoxZ7Lp7/FwIPJH4fVStB1BA/DJpWBRXZQb742Wmz3rqrd5/no/MbAQXbYozW/+t+4BtKdA+W8Q22ZHIx4iEWT0JoN/wntyA73T9ppS7Wwo3Rt9f+pHiub4V7uXQYr2/hMKUg65MY9OYa0aX6cVpj5Ff1Pxnsv6wccit6zm+752rukjpjLka/l/xd6s3c2G8lxIYjkD5/S1l7wcSe/AlqMBG1m95SU=</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://roccadaspide.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.roccadaspide.sa.it/eg581/HH0/WSR_HHSAML.HBL"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://roccadaspide.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://roccadaspide.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.roccadaspide.sa.it/eg581/HH0/WSR_HHSAML.HBL" index="2"/>
+    <md:AttributeConsumingService index="0">
+   		<md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+   	<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	</md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+   		<md:ServiceName xml:lang="it">Servizi online Halley</md:ServiceName>
+   	<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Codice fiscale Persona Giuridica" Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Numero di telefono mobile" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Data di scadenza identità" Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Indirizzo domicilio fisico" Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="CAP domicilio fisico" Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Comune domicilio fisico" Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Provincia domicilio fisico" Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Nazione domicilio fisico" Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Roccadaspide</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Roccadaspide</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Roccadaspide</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Roccadaspide</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.roccadaspide.sa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.roccadaspide.sa.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_h394</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Roccadaspide</md:Company>
+    <md:EmailAddress>protocollo@pec.comune.roccadaspide.sa.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
