@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_c142a4599b596a2d66f82ad538e3c28dbc50c17608006760f0cec2b7047139cf" entityID="https://www.comune.borgocarbonara.mn.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_c142a4599b596a2d66f82ad538e3c28dbc50c17608006760f0cec2b7047139cf">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>OuYXZeFKIqvGrnGVGxkTcNnrCESBQoFRyJ4XYN9O12U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QFTCZzeliqcONuw28YDkCDErBQgRz/hvXhAwe11LzUydPCCsy6IsSJRLpKmk5bv6AvZpkfLmEc1t
+jBdP8OKa9EqE6vjG3mVfVd3F8Qyu/4vvNPuSM9r/ax+vg9+3vaQHIMVtwfnmLKHTHg16cMxEEVsj
+y0lSleqKfVvKlEUxB2AlZ5+9nALVfszUHyhpGGEzotTNc/aH6HQF4vQ17jXvF49dVPM523BJvJ63
+8tGA25qJuLtaoeWGVzNTTRZgXf+A1FALckA9Q68KKZj50xIuunJts5OQ/0Sm54Ut4vjeZcyQA3/M
+zsR1XJH0BngiDT/72+v27C8b8gjJ81m0NO5/5Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yaGRaHS374fp1BlMYfD6Qn6QAKdohOW+lhnKZ9/yOCQGhaeuk3UfaSESsXO7pZaOD6hk2qAFIse9
+0O5RjI1k25Rc9qLYFZp68x/67fG2/t6xn/ywIwttJfxUtz7AUUfyTeKzxNKHF3OrgC56jmB1UO4p
+9IWwdA1SQ2bl5LmfeMxK8gSHLMAw9tBy+rqbd1DHbxLo0DsPBQWYD5fCtMc9gJQ4cagM4eZDLHDb
+LZ3x4U20lUH+YxdRYF45AQ8ANCjA1XQspFf7Zu2+Kdlgr23b+3eDwJQBypFXi9cOr/RkhXpFGMt5
+Jfftu/tSt7q5FShqRLturgBwVhkDIBZQaN1Hzw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID2zCCAsOgAwIBAgIJANDNV2CVNxVtMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkJvcmdvY2FyYm9uYXJhMSEwHwYDVQQKDBhDb211bmUg
+ZGkgQm9yZ29jYXJib25hcmExKDAmBgNVBAMMH3d3dy5jb211bmUuYm9yZ29jYXJib25hcmEubW4u
+aXQwHhcNMjUwOTA4MTA0OTExWhcNMzUwOTA4MTA0OTExWjCBgzELMAkGA1UEBhMCSVQxDjAMBgNV
+BAgMBUl0YWx5MRcwFQYDVQQHDA5Cb3Jnb2NhcmJvbmFyYTEhMB8GA1UECgwYQ29tdW5lIGRpIEJv
+cmdvY2FyYm9uYXJhMSgwJgYDVQQDDB93d3cuY29tdW5lLmJvcmdvY2FyYm9uYXJhLm1uLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaGRaHS374fp1BlMYfD6Qn6QAKdohOW+lhnK
+Z9/yOCQGhaeuk3UfaSESsXO7pZaOD6hk2qAFIse90O5RjI1k25Rc9qLYFZp68x/67fG2/t6xn/yw
+IwttJfxUtz7AUUfyTeKzxNKHF3OrgC56jmB1UO4p9IWwdA1SQ2bl5LmfeMxK8gSHLMAw9tBy+rqb
+d1DHbxLo0DsPBQWYD5fCtMc9gJQ4cagM4eZDLHDbLZ3x4U20lUH+YxdRYF45AQ8ANCjA1XQspFf7
+Zu2+Kdlgr23b+3eDwJQBypFXi9cOr/RkhXpFGMt5Jfftu/tSt7q5FShqRLturgBwVhkDIBZQaN1H
+zwIDAQABo1AwTjAdBgNVHQ4EFgQU0a7PburWY+XhbSYsH7VA/2JRluMwHwYDVR0jBBgwFoAU0a7P
+burWY+XhbSYsH7VA/2JRluMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALpu3YMnc
+XugTMdtte3CMKimDdoYke4fjnvJPG42eegvKNTtyGJW5MW4aC9nJE99n3RtxNxfMPC+xIXF4ARYU
+tp+utXuVKcD4oNy8h31cmF7U5/TcTVwXdlFBI/dWsO15DOIb3hDLM6u4Q9lN0lAbXzQg8rjd7vNe
+LlgRTB04rRGiMI4+p3hwf9GMQvHnn8zUTCsU7zuH5OrgYXpkA9vjBGNBaTGjGS05uWLw9JxwLwlq
+O4PVBr+BlH2ALg0e+BCKFu+B0lOG+xymA9B/UbCzkbeXE3+RYmrVW8ezjP6EB8CNtMFxcFN8OXzd
+1/xu2EmJo2Gpr+LF9iVixa8OwcyRTQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID2zCCAsOgAwIBAgIJANDNV2CVNxVtMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkJvcmdvY2FyYm9uYXJhMSEwHwYDVQQKDBhDb211bmUgZGkgQm9yZ29jYXJib25hcmExKDAmBgNVBAMMH3d3dy5jb211bmUuYm9yZ29jYXJib25hcmEubW4uaXQwHhcNMjUwOTA4MTA0OTExWhcNMzUwOTA4MTA0OTExWjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5Cb3Jnb2NhcmJvbmFyYTEhMB8GA1UECgwYQ29tdW5lIGRpIEJvcmdvY2FyYm9uYXJhMSgwJgYDVQQDDB93d3cuY29tdW5lLmJvcmdvY2FyYm9uYXJhLm1uLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaGRaHS374fp1BlMYfD6Qn6QAKdohOW+lhnKZ9/yOCQGhaeuk3UfaSESsXO7pZaOD6hk2qAFIse90O5RjI1k25Rc9qLYFZp68x/67fG2/t6xn/ywIwttJfxUtz7AUUfyTeKzxNKHF3OrgC56jmB1UO4p9IWwdA1SQ2bl5LmfeMxK8gSHLMAw9tBy+rqbd1DHbxLo0DsPBQWYD5fCtMc9gJQ4cagM4eZDLHDbLZ3x4U20lUH+YxdRYF45AQ8ANCjA1XQspFf7Zu2+Kdlgr23b+3eDwJQBypFXi9cOr/RkhXpFGMt5Jfftu/tSt7q5FShqRLturgBwVhkDIBZQaN1HzwIDAQABo1AwTjAdBgNVHQ4EFgQU0a7PburWY+XhbSYsH7VA/2JRluMwHwYDVR0jBBgwFoAU0a7PburWY+XhbSYsH7VA/2JRluMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALpu3YMncXugTMdtte3CMKimDdoYke4fjnvJPG42eegvKNTtyGJW5MW4aC9nJE99n3RtxNxfMPC+xIXF4ARYUtp+utXuVKcD4oNy8h31cmF7U5/TcTVwXdlFBI/dWsO15DOIb3hDLM6u4Q9lN0lAbXzQg8rjd7vNeLlgRTB04rRGiMI4+p3hwf9GMQvHnn8zUTCsU7zuH5OrgYXpkA9vjBGNBaTGjGS05uWLw9JxwLwlqO4PVBr+BlH2ALg0e+BCKFu+B0lOG+xymA9B/UbCzkbeXE3+RYmrVW8ezjP6EB8CNtMFxcFN8OXzd1/xu2EmJo2Gpr+LF9iVixa8OwcyRTQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID2zCCAsOgAwIBAgIJANDNV2CVNxVtMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkJvcmdvY2FyYm9uYXJhMSEwHwYDVQQKDBhDb211bmUgZGkgQm9yZ29jYXJib25hcmExKDAmBgNVBAMMH3d3dy5jb211bmUuYm9yZ29jYXJib25hcmEubW4uaXQwHhcNMjUwOTA4MTA0OTExWhcNMzUwOTA4MTA0OTExWjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5Cb3Jnb2NhcmJvbmFyYTEhMB8GA1UECgwYQ29tdW5lIGRpIEJvcmdvY2FyYm9uYXJhMSgwJgYDVQQDDB93d3cuY29tdW5lLmJvcmdvY2FyYm9uYXJhLm1uLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaGRaHS374fp1BlMYfD6Qn6QAKdohOW+lhnKZ9/yOCQGhaeuk3UfaSESsXO7pZaOD6hk2qAFIse90O5RjI1k25Rc9qLYFZp68x/67fG2/t6xn/ywIwttJfxUtz7AUUfyTeKzxNKHF3OrgC56jmB1UO4p9IWwdA1SQ2bl5LmfeMxK8gSHLMAw9tBy+rqbd1DHbxLo0DsPBQWYD5fCtMc9gJQ4cagM4eZDLHDbLZ3x4U20lUH+YxdRYF45AQ8ANCjA1XQspFf7Zu2+Kdlgr23b+3eDwJQBypFXi9cOr/RkhXpFGMt5Jfftu/tSt7q5FShqRLturgBwVhkDIBZQaN1HzwIDAQABo1AwTjAdBgNVHQ4EFgQU0a7PburWY+XhbSYsH7VA/2JRluMwHwYDVR0jBBgwFoAU0a7PburWY+XhbSYsH7VA/2JRluMwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALpu3YMncXugTMdtte3CMKimDdoYke4fjnvJPG42eegvKNTtyGJW5MW4aC9nJE99n3RtxNxfMPC+xIXF4ARYUtp+utXuVKcD4oNy8h31cmF7U5/TcTVwXdlFBI/dWsO15DOIb3hDLM6u4Q9lN0lAbXzQg8rjd7vNeLlgRTB04rRGiMI4+p3hwf9GMQvHnn8zUTCsU7zuH5OrgYXpkA9vjBGNBaTGjGS05uWLw9JxwLwlqO4PVBr+BlH2ALg0e+BCKFu+B0lOG+xymA9B/UbCzkbeXE3+RYmrVW8ezjP6EB8CNtMFxcFN8OXzd1/xu2EmJo2Gpr+LF9iVixa8OwcyRTQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.borgocarbonara.mn.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.borgocarbonara.mn.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.borgocarbonara.mn.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Borgocarbonara</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Borgocarbonara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Borgocarbonara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Borgocarbonara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.borgocarbonara.mn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.borgocarbonara.mn.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_m406</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Borgocarbonara</md:Company>
+    <md:EmailAddress>protocollo@pec.comune.borgocarbonara.mn.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
