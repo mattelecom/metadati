@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_f20641a71ab0c4d1f41c4f9da39b91a400f900b24074c8e3bb7d7197b410b3c0" entityID="https://urbisaglia.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_f20641a71ab0c4d1f41c4f9da39b91a400f900b24074c8e3bb7d7197b410b3c0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/+hGypBnWplzTj2GpaTTrP1tUvSRvlPAV0grvYXMBJ0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+YnglevfCbldg+XBVL8TSxfsOFtGHpU5WJ3L0J7XYxpmyPXgTJXFu4P+kBzIItpeFWQ269T3NjBER
+t/A7F6XZy4hlBOEkPz7fVRIn+InmbjXd/pQBWV85Wengkc7IJzJRw47eCsFtK2R72IhUySrYV5gt
+vUqp5/sJ/mdjEbUbbcs8lG91CC4L/izG8hvvg0+GTmLPPe0yxbadzlsDDXktl7PUbXkQwn+0APkl
+i3k5CmKpdQtMJVJvrJJbreRo+iUa76Iqz1d6IX4RIm7M34p93wBzNb5rMwGo4ugP9obdnVlSR5jA
+7cXhyHAk1QrWPc+T21Veaf4kqm3j5Em6IsaDjw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tTVYHoYZ0aIyodUxLSnBYSlaZ/EpUwsPAz9Ypu84DvMJ14v+iAcMbk6EvLGi/grpp1rSq8/SQxgq
+V1nUWNcGBJUyKEUB4QOuCcPlcktKCdjsa/uOrOpGr8w7Dqq+0CiqkHfrdv3nLCvMrHG/gzZ0MtlZ
+NMHtrbbkXI7SaDsStD528txa3ct1NDTq0nGoltbpdG4PwjiPC3qvt522F5wWvAvZ3ZvWblXDcgIT
+wzjMYx7AQiJZdcF/QUL0mO2RRy5p+LRNJFQ2JbJKo0VUK1VK4BBalce9+qkKhSvw2lBcAZKxOjO4
+R9tdWBkpRt8EeT0RukbBCf8Dqqh7MZYf+IvtwQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDuTCCAqGgAwIBAgIJAJnWyY4LVZCKMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVXJiaXNhZ2xpYTEdMBsGA1UECgwUQ29tdW5lIGRpIFVy
+YmlzYWdsaWExIDAeBgNVBAMMF3VyYmlzYWdsaWEuaGFsbGV5d2ViLml0MB4XDTI2MDEyMDA3NTIy
+NFoXDTM2MDEyMDA3NTIyNFowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQH
+DApVcmJpc2FnbGlhMR0wGwYDVQQKDBRDb211bmUgZGkgVXJiaXNhZ2xpYTEgMB4GA1UEAwwXdXJi
+aXNhZ2xpYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1NVge
+hhnRojKh1TEtKcFhKVpn8SlTCw8DP1im7zgO8wnXi/6IBwxuToS8saL+CumnWtKrz9JDGCpXWdRY
+1wYElTIoRQHhA64Jw+VyS0oJ2Oxr+46s6kavzDsOqr7QKKqQd+t2/ecsK8yscb+DNnQy2Vk0we2t
+tuRcjtJoOxK0Pnby3Frdy3U0NOrScaiW1ul0bg/COI8Leq+3nbYXnBa8C9ndm9ZuVcNyAhPDOMxj
+HsBCIll1wX9BQvSY7ZFHLmn4tE0kVDYlskqjRVQrVUrgEFqVx736qQqFK/DaUFwBkrE6M7hH211Y
+GSlG3wR5PRG6RsEJ/wOqqHsxlh/4i+3BAgMBAAGjUDBOMB0GA1UdDgQWBBRMNGYpRGK3yGRRotQ/
+TSEN3gcgTTAfBgNVHSMEGDAWgBRMNGYpRGK3yGRRotQ/TSEN3gcgTTAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQB69g4yM5LGUdbpK9BpDDtptcgRkEA80Efhw4VV3VF95itpxwWHZpy3
+BtSftlrneTYMDusrzAaA6/c3l95DHlNgS1ghMPmfu99DRA3uyjJDvoKL9eLQNSxOqQYs15MDt5gl
+zhT6/j4G9tM6WYkBdLWKSjYwouhUT4gCXvIhyE9SqxX3pJoOYfn9fVMN/L2JTUDEHauVEsKrtnWK
+wtJIrPQce8odq4NmdYchi0ptatQ+yUlg6E3lWo09Q3SNoDrtkPEfji0foxg4CHOlgILi8Zq+L9XX
+LGsaz508ZsUi8p/FLljElTbiDF8XVa5AqvsWD+wSIBvJPwEY5y58bywzssmM
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuTCCAqGgAwIBAgIJAJnWyY4LVZCKMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVXJiaXNhZ2xpYTEdMBsGA1UECgwUQ29tdW5lIGRpIFVyYmlzYWdsaWExIDAeBgNVBAMMF3VyYmlzYWdsaWEuaGFsbGV5d2ViLml0MB4XDTI2MDEyMDA3NTIyNFoXDTM2MDEyMDA3NTIyNFowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApVcmJpc2FnbGlhMR0wGwYDVQQKDBRDb211bmUgZGkgVXJiaXNhZ2xpYTEgMB4GA1UEAwwXdXJiaXNhZ2xpYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1NVgehhnRojKh1TEtKcFhKVpn8SlTCw8DP1im7zgO8wnXi/6IBwxuToS8saL+CumnWtKrz9JDGCpXWdRY1wYElTIoRQHhA64Jw+VyS0oJ2Oxr+46s6kavzDsOqr7QKKqQd+t2/ecsK8yscb+DNnQy2Vk0we2ttuRcjtJoOxK0Pnby3Frdy3U0NOrScaiW1ul0bg/COI8Leq+3nbYXnBa8C9ndm9ZuVcNyAhPDOMxjHsBCIll1wX9BQvSY7ZFHLmn4tE0kVDYlskqjRVQrVUrgEFqVx736qQqFK/DaUFwBkrE6M7hH211YGSlG3wR5PRG6RsEJ/wOqqHsxlh/4i+3BAgMBAAGjUDBOMB0GA1UdDgQWBBRMNGYpRGK3yGRRotQ/TSEN3gcgTTAfBgNVHSMEGDAWgBRMNGYpRGK3yGRRotQ/TSEN3gcgTTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB69g4yM5LGUdbpK9BpDDtptcgRkEA80Efhw4VV3VF95itpxwWHZpy3BtSftlrneTYMDusrzAaA6/c3l95DHlNgS1ghMPmfu99DRA3uyjJDvoKL9eLQNSxOqQYs15MDt5glzhT6/j4G9tM6WYkBdLWKSjYwouhUT4gCXvIhyE9SqxX3pJoOYfn9fVMN/L2JTUDEHauVEsKrtnWKwtJIrPQce8odq4NmdYchi0ptatQ+yUlg6E3lWo09Q3SNoDrtkPEfji0foxg4CHOlgILi8Zq+L9XXLGsaz508ZsUi8p/FLljElTbiDF8XVa5AqvsWD+wSIBvJPwEY5y58bywzssmM</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuTCCAqGgAwIBAgIJAJnWyY4LVZCKMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVXJiaXNhZ2xpYTEdMBsGA1UECgwUQ29tdW5lIGRpIFVyYmlzYWdsaWExIDAeBgNVBAMMF3VyYmlzYWdsaWEuaGFsbGV5d2ViLml0MB4XDTI2MDEyMDA3NTIyNFoXDTM2MDEyMDA3NTIyNFowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApVcmJpc2FnbGlhMR0wGwYDVQQKDBRDb211bmUgZGkgVXJiaXNhZ2xpYTEgMB4GA1UEAwwXdXJiaXNhZ2xpYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1NVgehhnRojKh1TEtKcFhKVpn8SlTCw8DP1im7zgO8wnXi/6IBwxuToS8saL+CumnWtKrz9JDGCpXWdRY1wYElTIoRQHhA64Jw+VyS0oJ2Oxr+46s6kavzDsOqr7QKKqQd+t2/ecsK8yscb+DNnQy2Vk0we2ttuRcjtJoOxK0Pnby3Frdy3U0NOrScaiW1ul0bg/COI8Leq+3nbYXnBa8C9ndm9ZuVcNyAhPDOMxjHsBCIll1wX9BQvSY7ZFHLmn4tE0kVDYlskqjRVQrVUrgEFqVx736qQqFK/DaUFwBkrE6M7hH211YGSlG3wR5PRG6RsEJ/wOqqHsxlh/4i+3BAgMBAAGjUDBOMB0GA1UdDgQWBBRMNGYpRGK3yGRRotQ/TSEN3gcgTTAfBgNVHSMEGDAWgBRMNGYpRGK3yGRRotQ/TSEN3gcgTTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB69g4yM5LGUdbpK9BpDDtptcgRkEA80Efhw4VV3VF95itpxwWHZpy3BtSftlrneTYMDusrzAaA6/c3l95DHlNgS1ghMPmfu99DRA3uyjJDvoKL9eLQNSxOqQYs15MDt5glzhT6/j4G9tM6WYkBdLWKSjYwouhUT4gCXvIhyE9SqxX3pJoOYfn9fVMN/L2JTUDEHauVEsKrtnWKwtJIrPQce8odq4NmdYchi0ptatQ+yUlg6E3lWo09Q3SNoDrtkPEfji0foxg4CHOlgILi8Zq+L9XXLGsaz508ZsUi8p/FLljElTbiDF8XVa5AqvsWD+wSIBvJPwEY5y58bywzssmM</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://urbisaglia.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://urbisaglia.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://urbisaglia.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Urbisaglia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Urbisaglia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Urbisaglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Urbisaglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.urbisaglia.mc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.urbisaglia.mc.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l501</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Urbisaglia</md:Company>
+    <md:EmailAddress>info@comune.urbisaglia.mc.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

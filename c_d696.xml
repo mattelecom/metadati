@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_g0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd" cacheDuration="PT604800S" entityID="https://www.comune.forenza.pz.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_g0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>WGyowRFt1KYyQfxHpyjgdOJ9giDe7gSsq9h7D6WDQJA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+zifIO6RcvMoKKMvAzW8EmZa1d3/xGrzGXWT6zX7Dfxv+B3eFIi/7G+cU27g1I4ccLb1gi+Gi4Dko
+es8UcFc0oYSpcvOF8tYmRooKfettDio7NO7P8lMr20+lmIFSHb4W0nuaA1jp/pRkJsGpXpiQ7K1W
+LYGUioiM2URJ1ou6d90TCjv8lGwmv7NdyaOXt/gI0bu5IL9XIgb387OQV4mylCswcfzUBtgU8lnt
+N4dRBh03Liji1vTMt3qvUmaDsRA7Sw2vw6i88bAcSxoxDqQyellKMeE/7RP51Wz4qIpYmljODwMM
+QSP6yY2ndtH91r1qCByue58MaB1AoFbCmAYggPfg5VoTj5qeaiBr1zVz3KnAz4aEjPBmxHsonljN
+D336BtHGQsDDoAOpI6VPxlB1E1EroLI8AWFHlCemHzpMwsBscMW4cCcJo3kfq9Eqov1XYmbJ6K4Q
+vHxWPquHdGrzdpbM0UbVGqVwytFD227R8WZMb9R6jkkPfxclQlYQ/M8gO2oM5zt96gP3PBE7G2I5
+vZG00Sx4/1ASmhs2g3RvIoBGabLrtrEd+M7dRAzfaAg8ABq6TwZtU3puW33H1ClO6g5DEes2LtCG
+fHJw8Dhj4EO67xMqAf/hqhlgLXzO0I5MVsFEjda1cikF7Qffvz04qCuoOR0y0Yw0pMCFQTKhiCY=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+08LqYJH8YzBEhLPEByYnDuPlFMpF3WVNaQGBu+gu/CNY63z5MAmT65ll90FuldUsYoxZEBNVK5cJ
+IzPZzdeTnlrZ/o5cIaGy85VY6mI+0bYh9DT6ZKQgKV8VorS2rfe5hlXkXHruejnxfz75VFkdJe3a
++LyPxCPL4bu6smBqA3MpCS9C+jWNNjrXcIgRDJ/XQygnI/26+Pe0HnG+ZUi8r4zlPJ/QVJkNJVWT
+4C4i28hq0J++mbC20jTqaQ8Sp1vqKZEkRqhkW9qzpNImgRFL3O9b5kClW1T9JUNVWdHNXw/q0+8D
++6XrzyGPNVPlO8GndoVf3cOAjzj0QAk5RwwTUo8XLf1biPPgsRtxzGDHdbKwL7/WF5Hm+AGr4sec
+AKRe8MQPbUZuoxqwMGwuACuvhMSoaKttPAHBs5IIG+TUr0sIm64Zoh6Up2ndNlbYsaujSM9ThG8B
+j7E0T1/U+WhJ3mJ/MN72JlzYcwr1IPIULPrw2cEwnBwCLWIh4BjDb3SsVGXpv9JsFKnLZhLsjqVY
+TFghnv1bF0hU/zWbFR/sdiTTZ0fiF7ltqkQTzVlT+qY5OV3bdcA0WGRuW+gUXy81YUhHFieLBvzT
+2ktK0hCIA3mwgHUlxdI5ex23BxV2ePcf4+wShCCKKeAK9DJ+s47s4kvXMlaM3r6gGsax2V36/Nk=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+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
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGLDCCBBSgAwIBAgIJAOIk3D8edXP/MA0GCSqGSIb3DQEBCwUAMIGqMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTEQMA4GA1UEBwwHRm9yZW56YTEaMBgG
+A1UECgwRQ29tdW5lIGRpIEZvcmVuemExDTALBgNVBAsMBFNwaWQxFTATBgNVBAMM
+DHNwaWQtZm9yZW56YTE1MDMGCSqGSIb3DQEJARYmY29tdW5lLmZvcmVuemFAY2Vy
+dC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjYwMTEwMDkwODA4WhcNMzYwMTA4MDkw
+ODA4WjCBqjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExEDAOBgNVBAcM
+B0ZvcmVuemExGjAYBgNVBAoMEUNvbXVuZSBkaSBGb3JlbnphMQ0wCwYDVQQLDART
+cGlkMRUwEwYDVQQDDAxzcGlkLWZvcmVuemExNTAzBgkqhkiG9w0BCQEWJmNvbXVu
+ZS5mb3JlbnphQGNlcnQucnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkqhkiG9w0B
+AQEFAAOCAg8AMIICCgKCAgEA08LqYJH8YzBEhLPEByYnDuPlFMpF3WVNaQGBu+gu
+/CNY63z5MAmT65ll90FuldUsYoxZEBNVK5cJIzPZzdeTnlrZ/o5cIaGy85VY6mI+
+0bYh9DT6ZKQgKV8VorS2rfe5hlXkXHruejnxfz75VFkdJe3a+LyPxCPL4bu6smBq
+A3MpCS9C+jWNNjrXcIgRDJ/XQygnI/26+Pe0HnG+ZUi8r4zlPJ/QVJkNJVWT4C4i
+28hq0J++mbC20jTqaQ8Sp1vqKZEkRqhkW9qzpNImgRFL3O9b5kClW1T9JUNVWdHN
+Xw/q0+8D+6XrzyGPNVPlO8GndoVf3cOAjzj0QAk5RwwTUo8XLf1biPPgsRtxzGDH
+dbKwL7/WF5Hm+AGr4secAKRe8MQPbUZuoxqwMGwuACuvhMSoaKttPAHBs5IIG+TU
+r0sIm64Zoh6Up2ndNlbYsaujSM9ThG8Bj7E0T1/U+WhJ3mJ/MN72JlzYcwr1IPIU
+LPrw2cEwnBwCLWIh4BjDb3SsVGXpv9JsFKnLZhLsjqVYTFghnv1bF0hU/zWbFR/s
+diTTZ0fiF7ltqkQTzVlT+qY5OV3bdcA0WGRuW+gUXy81YUhHFieLBvzT2ktK0hCI
+A3mwgHUlxdI5ex23BxV2ePcf4+wShCCKKeAK9DJ+s47s4kvXMlaM3r6gGsax2V36
+/NkCAwEAAaNTMFEwHQYDVR0OBBYEFBQPxNGDaNgL2zHyJIwaaSVnEsaUMB8GA1Ud
+IwQYMBaAFBQPxNGDaNgL2zHyJIwaaSVnEsaUMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggIBAGgKMZEsEpa9J7rc7SPXjrJJyJ9xQyAgNixI0kd+PgjM
+g7/snj0BMtHX6BcQmhWjiC2Ibcfx3FZh9tWyEdSVfO5guyCV29BZ6tV8zP7tHjMY
+EtLwd08GDDGo/1KzsX2aD7P+qjfSkIzBdfbwh5/u7PPSi6L1+Zzzx620ZlpKwzk6
+wssPQJswH8AoYXrc44fwMsQyKdCWMEs69flWQLo5tME7TRYprTF0FH9Vz4jR1jYL
+C0gICXHUSO+Ab3Lq63DhoXQwjH29zcVYtkx0wwaGWEhUe0IZkH0oiVZHJIx281CQ
+SiF/03xHfJhIP1KsU91aCHvfOQqkyOohfiZQtpvA/lfAbtqpQqYeZr4BIZdGBBRm
+wYm8Frl+Zdm9BDdzaNzHA/vn1knNoPhJ+O7q5KE82ghSwdx0f0bbyjKcPrBjyt14
+76LuGiUssHREyoXk0A2JD7RkfCS7uZHAvIvjZISenfNHkQ7WqhJCuQnfss+vHP0x
+mS0q34Ue5iVGu8hvCyRsv6iD2dp4Zf/OwmnqguwT0vK0zcXTzNG2SZ+e5ZNgHFSG
+InJuELUZZ77u3pbBQJ2Se3h6JxNkheDvQsvwNjhfYbCxTjSFeFFnlJ6sCorER7Ea
+NQay+J3i+wEHBIClzdCOUF0Rv9QIn3CL0ei30h8RJO9tvglYPAsiwUQsHg/L426v
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGLDCCBBSgAwIBAgIJAOIk3D8edXP/MA0GCSqGSIb3DQEBCwUAMIGqMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTEQMA4GA1UEBwwHRm9yZW56YTEaMBgG
+A1UECgwRQ29tdW5lIGRpIEZvcmVuemExDTALBgNVBAsMBFNwaWQxFTATBgNVBAMM
+DHNwaWQtZm9yZW56YTE1MDMGCSqGSIb3DQEJARYmY29tdW5lLmZvcmVuemFAY2Vy
+dC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjYwMTEwMDkwODA4WhcNMzYwMTA4MDkw
+ODA4WjCBqjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExEDAOBgNVBAcM
+B0ZvcmVuemExGjAYBgNVBAoMEUNvbXVuZSBkaSBGb3JlbnphMQ0wCwYDVQQLDART
+cGlkMRUwEwYDVQQDDAxzcGlkLWZvcmVuemExNTAzBgkqhkiG9w0BCQEWJmNvbXVu
+ZS5mb3JlbnphQGNlcnQucnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkqhkiG9w0B
+AQEFAAOCAg8AMIICCgKCAgEA08LqYJH8YzBEhLPEByYnDuPlFMpF3WVNaQGBu+gu
+/CNY63z5MAmT65ll90FuldUsYoxZEBNVK5cJIzPZzdeTnlrZ/o5cIaGy85VY6mI+
+0bYh9DT6ZKQgKV8VorS2rfe5hlXkXHruejnxfz75VFkdJe3a+LyPxCPL4bu6smBq
+A3MpCS9C+jWNNjrXcIgRDJ/XQygnI/26+Pe0HnG+ZUi8r4zlPJ/QVJkNJVWT4C4i
+28hq0J++mbC20jTqaQ8Sp1vqKZEkRqhkW9qzpNImgRFL3O9b5kClW1T9JUNVWdHN
+Xw/q0+8D+6XrzyGPNVPlO8GndoVf3cOAjzj0QAk5RwwTUo8XLf1biPPgsRtxzGDH
+dbKwL7/WF5Hm+AGr4secAKRe8MQPbUZuoxqwMGwuACuvhMSoaKttPAHBs5IIG+TU
+r0sIm64Zoh6Up2ndNlbYsaujSM9ThG8Bj7E0T1/U+WhJ3mJ/MN72JlzYcwr1IPIU
+LPrw2cEwnBwCLWIh4BjDb3SsVGXpv9JsFKnLZhLsjqVYTFghnv1bF0hU/zWbFR/s
+diTTZ0fiF7ltqkQTzVlT+qY5OV3bdcA0WGRuW+gUXy81YUhHFieLBvzT2ktK0hCI
+A3mwgHUlxdI5ex23BxV2ePcf4+wShCCKKeAK9DJ+s47s4kvXMlaM3r6gGsax2V36
+/NkCAwEAAaNTMFEwHQYDVR0OBBYEFBQPxNGDaNgL2zHyJIwaaSVnEsaUMB8GA1Ud
+IwQYMBaAFBQPxNGDaNgL2zHyJIwaaSVnEsaUMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggIBAGgKMZEsEpa9J7rc7SPXjrJJyJ9xQyAgNixI0kd+PgjM
+g7/snj0BMtHX6BcQmhWjiC2Ibcfx3FZh9tWyEdSVfO5guyCV29BZ6tV8zP7tHjMY
+EtLwd08GDDGo/1KzsX2aD7P+qjfSkIzBdfbwh5/u7PPSi6L1+Zzzx620ZlpKwzk6
+wssPQJswH8AoYXrc44fwMsQyKdCWMEs69flWQLo5tME7TRYprTF0FH9Vz4jR1jYL
+C0gICXHUSO+Ab3Lq63DhoXQwjH29zcVYtkx0wwaGWEhUe0IZkH0oiVZHJIx281CQ
+SiF/03xHfJhIP1KsU91aCHvfOQqkyOohfiZQtpvA/lfAbtqpQqYeZr4BIZdGBBRm
+wYm8Frl+Zdm9BDdzaNzHA/vn1knNoPhJ+O7q5KE82ghSwdx0f0bbyjKcPrBjyt14
+76LuGiUssHREyoXk0A2JD7RkfCS7uZHAvIvjZISenfNHkQ7WqhJCuQnfss+vHP0x
+mS0q34Ue5iVGu8hvCyRsv6iD2dp4Zf/OwmnqguwT0vK0zcXTzNG2SZ+e5ZNgHFSG
+InJuELUZZ77u3pbBQJ2Se3h6JxNkheDvQsvwNjhfYbCxTjSFeFFnlJ6sCorER7Ea
+NQay+J3i+wEHBIClzdCOUF0Rv9QIn3CL0ei30h8RJO9tvglYPAsiwUQsHg/L426v
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.forenza.pz.it/api/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.forenza.pz.it/api/acs" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.forenza.pz.it/api/acs" index="1"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://forenza.wemapp.eu/api/acs" index="2"/>	   
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sudeforenza.paesit.it/api/acs" index="3"/> 
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sudeforenza.wemapp.eu/api/acs" index="4"/> 
+            <md:AttributeConsumingService index="0"> 
+                <md:ServiceName xml:lang="it">Comune di Forenza</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+            <md:AttributeConsumingService index="1"> 
+                <md:ServiceName xml:lang="it">Comune di Forenza</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+            <md:AttributeConsumingService index="2"> 
+                <md:ServiceName xml:lang="it">Comune di Forenza</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 		
+                    <md:AttributeConsumingService index="3"> 
+	                <md:ServiceName xml:lang="it">Comune di Forenza</md:ServiceName> 
+	                <md:ServiceDescription xml:lang="it">Servizio SPID di Paesit</md:ServiceDescription> 
+	                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+                    <md:AttributeConsumingService index="4"> 
+	                <md:ServiceName xml:lang="it">Comune di Forenza</md:ServiceName> 
+	                <md:ServiceDescription xml:lang="it">Servizio SPID di Paesit</md:ServiceDescription> 
+	                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService>         
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Forenza</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Forenza</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.forenza.pz.it</md:OrganizationURL>
+  </md:Organization>
+  
+<md:ContactPerson contactType="other"> 
+<md:Extensions> 
+<spid:IPACode>c_d696</spid:IPACode> 
+<spid:Public/>
+</md:Extensions> 
+<md:Company>Comune di Forenza</md:Company> 
+<md:EmailAddress>comune.forenza@cert.ruparbasilicata.it</md:EmailAddress> 
+<md:TelephoneNumber>+390971772211</md:TelephoneNumber> 
+</md:ContactPerson> 
+</md:EntityDescriptor>

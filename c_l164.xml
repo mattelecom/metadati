@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_b664578fcd81cedb6843b2fcaa8b2aa9d407e59d831d883a0969f330a618a831" entityID="https://cappellacantone.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b664578fcd81cedb6843b2fcaa8b2aa9d407e59d831d883a0969f330a618a831">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ToXhaF+CbNbIrAruNIWzKcgCcd+0+gikh/hiZL5mf3Y=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+FbqWgC3DYSXAaP8/qIbt7fagVHE+CfSAoUbxQ4M0cKOtxJrMecIfJyXHlt34FkSWRRJUofyptdJs
+fLSMdehznWVA7NfETZIJuDfAGa8UGqrpjf0DWtnnY8wYxg0zkCz0T5PCSc32UJzaHPWIbSCgxZn4
+rKKrkCrMEW+whsKRewrFD2yVeXia4nWdzgjU/i37uVDP9tzfChV1l8jn/OH5W8Zv4FNakCjmWB7g
+CIsfqN7bfOzDzx3T1trhaBQGuzajL/RhzVONsWbNsdjslRRo8Qi8X+QF31cS+mUGOhubWECv19dK
+yJcoqBOok94acVJl0nerIspPfHFQiTR0dgm7iw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
++Fz1VCCmagGYRiwQY9wVFgfW5QNdkPFL32OoXBBfgC6qrGDXE/PSc7UyH+B08KBbSB44x9MVNpNd
+yeWRLLwQJjbbeuWxYVUcQFkXS4mnmQ0kiMmlY1D0JMVC9mrWrQ6cP3F8jyaJeMH3u/zoRpC0E0Z4
+TtoWvYtFZsAtLw90VU443UHaCSuO602V53UPEzhADnmHSxCYoCoeSMKPIcGNKO5D+qLRWfyU91HM
+VUXWyQLfC35kBhV1oHyzu6ResLjTtGhMaZhD/6fdZuNgodtUhLd1ui2L4qsYpI4x8menIpQrpQlP
+6Vo3BuFSOQzgA64jDJ9yctA0By/TCVoWuNPf2w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID3TCCAsWgAwIBAgIJAPex7cF9sA/UMA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEENhcHBlbGxhIENhbnRvbmUxIzAhBgNVBAoMGkNvbXVu
+ZSBkaSBDYXBwZWxsYSBDYW50b25lMSUwIwYDVQQDDBxjYXBwZWxsYWNhbnRvbmUuaGFsbGV5d2Vi
+Lml0MB4XDTI2MDEyMDA3NDIzOFoXDTM2MDEyMDA3NDIzOFowgYQxCzAJBgNVBAYTAklUMQ4wDAYD
+VQQIDAVJdGFseTEZMBcGA1UEBwwQQ2FwcGVsbGEgQ2FudG9uZTEjMCEGA1UECgwaQ29tdW5lIGRp
+IENhcHBlbGxhIENhbnRvbmUxJTAjBgNVBAMMHGNhcHBlbGxhY2FudG9uZS5oYWxsZXl3ZWIuaXQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD4XPVUIKZqAZhGLBBj3BUWB9blA12Q8Uvf
+Y6hcEF+ALqqsYNcT89JztTIf4HTwoFtIHjjH0xU2k13J5ZEsvBAmNtt65bFhVRxAWRdLiaeZDSSI
+yaVjUPQkxUL2atatDpw/cXyPJol4wfe7/OhGkLQTRnhO2ha9i0VmwC0vD3RVTjjdQdoJK47rTZXn
+dQ8TOEAOeYdLEJigKh5Iwo8hwY0o7kP6otFZ/JT3UcxVRdbJAt8LfmQGFXWgfLO7pF6wuNO0aExp
+mEP/p91m42Ch21SEt3W6LYviqxikjjHyZ6cilCulCU/pWjcG4VI5DOADriMMn3Jy0DQHL9MJWha4
+09/bAgMBAAGjUDBOMB0GA1UdDgQWBBTeD2tLqMUF8uiY6aj3J5PTDqsvxDAfBgNVHSMEGDAWgBTe
+D2tLqMUF8uiY6aj3J5PTDqsvxDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDlYlLE
+h5GDI+lgj6cEYVnTXDE//8b3PATL3DGdkFciziq2kq+ykL+bl7YSiDgIS9o6ZztMsgwluiYue4XH
+kmgErMfd+GhZePixfMcxC93KJje3zO7OuFBbx9uId5kxbCLY6MHnsEo5diAIH1GmplxX9mhaJek9
+5zqyXjkMjectI5fvcZVMNUSb52kkzNMMQM1Z+hjLDzDLdFBwPUYf6hmG4c9YQ9ehp0AL/mzH9Mym
+4kqFLYmDPSTkVDkbFALIk9BPLexTF8VXNgIFowSlJyaEoB4WxtgIOTYcUgwHe4ApryRd3vLqOmPu
+bvmq80nWiGasBpzNGmgcKtUTLx3c+1bn
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3TCCAsWgAwIBAgIJAPex7cF9sA/UMA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEENhcHBlbGxhIENhbnRvbmUxIzAhBgNVBAoMGkNvbXVuZSBkaSBDYXBwZWxsYSBDYW50b25lMSUwIwYDVQQDDBxjYXBwZWxsYWNhbnRvbmUuaGFsbGV5d2ViLml0MB4XDTI2MDEyMDA3NDIzOFoXDTM2MDEyMDA3NDIzOFowgYQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQQ2FwcGVsbGEgQ2FudG9uZTEjMCEGA1UECgwaQ29tdW5lIGRpIENhcHBlbGxhIENhbnRvbmUxJTAjBgNVBAMMHGNhcHBlbGxhY2FudG9uZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD4XPVUIKZqAZhGLBBj3BUWB9blA12Q8UvfY6hcEF+ALqqsYNcT89JztTIf4HTwoFtIHjjH0xU2k13J5ZEsvBAmNtt65bFhVRxAWRdLiaeZDSSIyaVjUPQkxUL2atatDpw/cXyPJol4wfe7/OhGkLQTRnhO2ha9i0VmwC0vD3RVTjjdQdoJK47rTZXndQ8TOEAOeYdLEJigKh5Iwo8hwY0o7kP6otFZ/JT3UcxVRdbJAt8LfmQGFXWgfLO7pF6wuNO0aExpmEP/p91m42Ch21SEt3W6LYviqxikjjHyZ6cilCulCU/pWjcG4VI5DOADriMMn3Jy0DQHL9MJWha409/bAgMBAAGjUDBOMB0GA1UdDgQWBBTeD2tLqMUF8uiY6aj3J5PTDqsvxDAfBgNVHSMEGDAWgBTeD2tLqMUF8uiY6aj3J5PTDqsvxDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDlYlLEh5GDI+lgj6cEYVnTXDE//8b3PATL3DGdkFciziq2kq+ykL+bl7YSiDgIS9o6ZztMsgwluiYue4XHkmgErMfd+GhZePixfMcxC93KJje3zO7OuFBbx9uId5kxbCLY6MHnsEo5diAIH1GmplxX9mhaJek95zqyXjkMjectI5fvcZVMNUSb52kkzNMMQM1Z+hjLDzDLdFBwPUYf6hmG4c9YQ9ehp0AL/mzH9Mym4kqFLYmDPSTkVDkbFALIk9BPLexTF8VXNgIFowSlJyaEoB4WxtgIOTYcUgwHe4ApryRd3vLqOmPubvmq80nWiGasBpzNGmgcKtUTLx3c+1bn</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3TCCAsWgAwIBAgIJAPex7cF9sA/UMA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEENhcHBlbGxhIENhbnRvbmUxIzAhBgNVBAoMGkNvbXVuZSBkaSBDYXBwZWxsYSBDYW50b25lMSUwIwYDVQQDDBxjYXBwZWxsYWNhbnRvbmUuaGFsbGV5d2ViLml0MB4XDTI2MDEyMDA3NDIzOFoXDTM2MDEyMDA3NDIzOFowgYQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQQ2FwcGVsbGEgQ2FudG9uZTEjMCEGA1UECgwaQ29tdW5lIGRpIENhcHBlbGxhIENhbnRvbmUxJTAjBgNVBAMMHGNhcHBlbGxhY2FudG9uZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD4XPVUIKZqAZhGLBBj3BUWB9blA12Q8UvfY6hcEF+ALqqsYNcT89JztTIf4HTwoFtIHjjH0xU2k13J5ZEsvBAmNtt65bFhVRxAWRdLiaeZDSSIyaVjUPQkxUL2atatDpw/cXyPJol4wfe7/OhGkLQTRnhO2ha9i0VmwC0vD3RVTjjdQdoJK47rTZXndQ8TOEAOeYdLEJigKh5Iwo8hwY0o7kP6otFZ/JT3UcxVRdbJAt8LfmQGFXWgfLO7pF6wuNO0aExpmEP/p91m42Ch21SEt3W6LYviqxikjjHyZ6cilCulCU/pWjcG4VI5DOADriMMn3Jy0DQHL9MJWha409/bAgMBAAGjUDBOMB0GA1UdDgQWBBTeD2tLqMUF8uiY6aj3J5PTDqsvxDAfBgNVHSMEGDAWgBTeD2tLqMUF8uiY6aj3J5PTDqsvxDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDlYlLEh5GDI+lgj6cEYVnTXDE//8b3PATL3DGdkFciziq2kq+ykL+bl7YSiDgIS9o6ZztMsgwluiYue4XHkmgErMfd+GhZePixfMcxC93KJje3zO7OuFBbx9uId5kxbCLY6MHnsEo5diAIH1GmplxX9mhaJek95zqyXjkMjectI5fvcZVMNUSb52kkzNMMQM1Z+hjLDzDLdFBwPUYf6hmG4c9YQ9ehp0AL/mzH9Mym4kqFLYmDPSTkVDkbFALIk9BPLexTF8VXNgIFowSlJyaEoB4WxtgIOTYcUgwHe4ApryRd3vLqOmPubvmq80nWiGasBpzNGmgcKtUTLx3c+1bn</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cappellacantone.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cappellacantone.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cappellacantone.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cappella Cantone</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Cappella Cantone</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cappella Cantone</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Cappella Cantone</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cappellacantone.cr.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cappellacantone.cr.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l164</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Cappella Cantone</md:Company>
+    <md:EmailAddress>info@comune.cappellacantone.cr.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
